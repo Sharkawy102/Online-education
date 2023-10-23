@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        <section class="flex">
+            <a href="home.html" class="logo">Educa </a>
+            
+            <form action="" method="post" class="search-form">
+                <input type="text"  name="searchBox" placeholder="Search courses..."  maxlength="100">
+                <button type="submit" class="fas fa-search" name="searchBox"></button>
+            </form>
+            <div class="icons">
+                <div id="menuBtn" class="fas fa-bars"></div>
+                <div id="SearchBtn" class="fas fa-search"></div>
+                <div id="userBtn" class="fas fa-user"></div>
+                <div id="toggleBtn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="./IMG/pic-1.jpg" alt="">
+                <h3>Abdelrahman</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- header section ends -->
+
+    <!-- side bar section starts -->
+    <div class="sideBar">
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+         </div>
+        <div class="profile">
+            <img src="./IMG/pic-1.jpg" alt="">
+            <h3>Abdelrahman</h3>
+            <span>student</span>
+            <a href="profile.html" class="btn">view profile</a>
+            
+        </div>
+
+        <div class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="aboutUs.html"><i class="fas fa-question"></i><span>About Us</span></a>
+            <a href="courses.html"><i class="fas fa-chalkboard-user"></i><span>courses</span></a>
+            <a href="teachers.html"><i class="fas fa-graduation-cap"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>contact</span></a>
+        </div>
+    </div>
+
+    <!-- side bar section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact">
+        <div class="row">
+            <div class="image">
+                <img src="IMG/contact-img.svg" alt="">
+            </div>
+            <form action="" method="post">
+                <h3>get in touch</h3>
+                <input type="text" name="name" id="" placeholder="Enter your name" required class="box">
+                <input type="email" name="email" id="" placeholder="Enter your email" required class="box">
+                <input type="number" name="number id="" placeholder="Enter your number" required class="box">
+                <textarea name="msg" id="" placeholder="enter your message" cols="30" rows="10" class="box" required maxlength="1000"></textarea>
+                <input type="submit"  value="send message" class="inline-btn" name="submit" >
+            </form>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>phone number</h3>
+                <a href="">123-456-7890</a>
+                <a href="">123-456-7890</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>email address</h3>
+                <a href="">shaikhanas@gmail.come</a>
+                <a href="">anasbhai@gmail.come</a>
+            </div>
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>office address</h3>
+                <a href="">flat no. 1, a-1 building, jogeshwari, mumbai, india - 400104</a>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+    <footer class="footer">
+        &copy; copyright @ 2023 by <span>Mr. Abdelrahman Elsharkawy </span> | All right reserved!
+    </footer>
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="JS/script.js" ></script>
+</body>
+</html>
